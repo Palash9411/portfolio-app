@@ -8,12 +8,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavBarModule } from './navbar/navbar.module';
-import { SkillModule } from './my-skill/skill.module';
+import { SkillModule } from './my-skills/skill.module';
 import { ContactModule } from './contact-info/contact.module';
 import { AboutModule } from './about/about.module';
 import { ExperienceModule } from './experience/experience.module';
 import {HttpClientModule} from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { MaterialComponentsModule } from './material-components/material-components.module';
 
 @NgModule({
   declarations: [
@@ -32,9 +33,10 @@ import { CommonModule } from '@angular/common';
     AboutModule,
     ExperienceModule,
     HttpClientModule,
-    CommonModule
+    CommonModule,
+    MaterialComponentsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent] 
 })
 export class AppModule { }

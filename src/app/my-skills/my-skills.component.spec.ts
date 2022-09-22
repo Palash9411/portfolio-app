@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MySkillComponent } from './my-skill.component';
+import { MySkillComponent } from './my-skills.component';
 
 describe('MySkillComponent', () => {
   let component: MySkillComponent;

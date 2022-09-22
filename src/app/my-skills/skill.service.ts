@@ -22,7 +22,7 @@ export class SkillService {
 
     private skillsBehaviorSubject = new BehaviorSubject<SkillState>({skills:null,error:null,loading:null});
 
-    private readonly skills$ = this.skillsBehaviorSubject.asObservable().pipe(
+    public readonly skills$ = this.skillsBehaviorSubject.asObservable().pipe(
         map((skillState)=>skillState.skills),
         distinctUntilChanged()
       );

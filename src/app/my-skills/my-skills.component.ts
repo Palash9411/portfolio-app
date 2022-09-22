@@ -3,7 +3,7 @@ import { SkillService } from './skill.service';
 
 @Component({
   selector: 'app-my-skill',
-  templateUrl: './my-skill.component.html',
+  templateUrl: './my-skills.component.html',
   styleUrls: ['./my-skill.component.scss']
 })
 export class MySkillComponent implements OnInit {
